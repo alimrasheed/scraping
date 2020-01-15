@@ -6,12 +6,6 @@
 # https://doc.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from scrapy.loader.processors import MapCompose, TakeFirst, Join
-from w3lib.html import remove_tags
-
-def remove_quotations(value):
-    return value.replace(u"\u201d", '').replace(u"\u201c", '')
-
 
 class QuoteItem(scrapy.Item):
     text= scrapy.Field()
