@@ -2,7 +2,7 @@ import scrapy
 from scrapy.loader import ItemLoader
 import sys
 sys.path.append('/home/alim/virtual_workspace/demo_project/demo_project')
-from items import QuoteItem
+from ..items import QuoteItem
 
 
 class GoodReadsSpider(scrapy.Spider):
