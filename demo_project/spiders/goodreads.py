@@ -22,8 +22,7 @@ class GoodReadsSpider(scrapy.Spider):
             loader.add_xpath('tags', ".//div[@class='greyText smallText left']/a")
             yield loader.load_item()
             
-        
-        # /quotes?page=2
+    
         next_page= response.xpath("//a[@class='next_page']/@href").extract_first()
 
         if next_page is not None:
