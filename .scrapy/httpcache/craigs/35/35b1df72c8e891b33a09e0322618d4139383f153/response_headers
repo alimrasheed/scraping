@@ -1,0 +1,11 @@
+Cache-Control: no-cache, no-store
+Last-Modified: Tue, 21 Jan 2020 19:11:29 GMT
+Location: https://accounts.craigslist.org/login?rt=L&rp=%2Flogin%2Fhome
+Date: Tue, 21 Jan 2020 19:11:29 GMT
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Content-Type: text/html; charset=iso-8859-1
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: cl_b=4|d354524f75c664b56fbd1cd0918a3e0c07548be0|15796338898n0WA;path=/;domain=.craigslist.org;expires=Fri, 01-Jan-2038 00:00:00 GMT
+Server: Apache
+Strict-Transport-Security: max-age=86400

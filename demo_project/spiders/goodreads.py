@@ -1,29 +1,26 @@
 import scrapy
-from scrapy.loader import ItemLoader
-import sys
-sys.path.append('/home/alim/virtual_workspace/demo_project/demo_project')
-from ..items import QuoteItem
+#import sys
+#sys.path.append('/home/alim/PycharmProjects/amazon/amazon/amazon')
+from ..items import AmazonItem
 
+class AmazonSpiderSpider(scrapy.Spider):
+    name = 'amazon_spider'
+    start_urls = [
+        'https://www.amazon.com/s?rh=n%3A283155%2Cn%3A%211000%2Cn%3A28&page=2&qid=1579712266&ref=lp_28_pg_2'
+        ]
 
-class GoodReadsSpider(scrapy.Spider):
-    #identity
-    name="goodreads"
-
-    start_urls= [
-        'https://www.goodreads.com/quotes?page=1'
-    ]
-
-    #Response
     def parse(self, response):
-        for quote in response.xpath("//div[@class='quote']"):
-            loader= ItemLoader(item=QuoteItem(), selector=quote, response=response)
-            loader.add_xpath('text', ".//div[@class='quoteText']/text()[1]")
-            loader.add_xpath('author', ".//div[@class='quoteText']/child::span/text()[1]")
-            loader.add_xpath('tags', ".//div[@class='greyText smallText left']/a/text()")
-            yield loader.load_item()
-            
-    
-        next_page = response.css("a.next_page::attr(href)").get()
 
-        if next_page is not None:
-            yield response.follow(next_page, self.parse)
+        items = AmazonItem()
+
+        title = response.css('.a-color-base.a-text-normal').extract_first()
+        author = response.css('.a-color-secondary .a-size-base+ .a-size-base , .a-color-secondary .a-size-base.a-link-normal').css('::text').extract_first()
+        price = response.css('.a-spacing-top-small .a-price span span').css('::text').extract_first()
+        image_link = response.css('.s-image').css('::text').extract_first()
+
+        items['title'] = title
+        items['author'] = author
+        items['price'] = price
+        items['image_link'] = image_link
+        
+        yield items

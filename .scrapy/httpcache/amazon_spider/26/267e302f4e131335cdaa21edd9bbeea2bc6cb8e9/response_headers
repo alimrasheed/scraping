@@ -1,0 +1,22 @@
+Content-Type: text/html;charset=UTF-8
+Server: Server
+Date: Wed, 22 Jan 2020 18:04:16 GMT
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Vary: Accept-Encoding,User-Agent,X-Amzn-CDN-Cache,X-Amzn-AX-Treatment
+Content-Language: en-US
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Content-Encoding: gzip
+X-Xss-Protection: 1;
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: session-id=137-7297491-3133725; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:02 GMT; Path=/
+Set-Cookie: session-id-time=2082787201l; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:02 GMT; Path=/
+Set-Cookie: i18n-prefs=USD; Domain=.amazon.com; Expires=Tue, 01-Jan-2036 08:00:02 GMT; Path=/
+Set-Cookie: sp-cdn="L5Z9:SA"; Version=1; Domain=.amazon.com; Max-Age=503070946; Expires=Tue, 01-Jan-2036 08:00:02 GMT; Path=/; Secure; HttpOnly
+X-Amz-Rid: MSVVVA8HR7NENC0NM67Z
+X-Cache: Miss from cloudfront
+Via: 1.1 ba38368c2b2437f314bbc0ee51e6632e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BAH53-C1
+X-Amz-Cf-Id: XagrvKtVwqDwmqIKRxN7KELTyxickEhOeU2t_J5WKDNo_tOyQZu1vQ==
