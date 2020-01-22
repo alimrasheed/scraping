@@ -8,10 +8,10 @@
 import scrapy
 
 
-class AmazonItem(scrapy.Item):
+class QuoteItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    title = scrapy.Field()
+    text = scrapy.Field()
     author = scrapy.Field()
-    price = scrapy.Field()
-    image_link = scrapy.Field()
+    tags = scrapy.Field()
+    

@@ -23,7 +23,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-PROXY_POOL_ENABLED = True
+PROXY_POOL_ENABLED = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -75,9 +75,9 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'demo_project.pipelines.DemoProjectPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'demo_project.pipelines.DemoProjectPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
