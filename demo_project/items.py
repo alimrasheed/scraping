@@ -11,9 +11,8 @@ import scrapy
 class TestItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    img_url = scrapy.Field()
+    #img_url = scrapy.Field()
     img = scrapy.Field()
     EAN = scrapy.Field()
     Handle = scrapy.Field()
-    Blade_length = scrapy.Field()
     

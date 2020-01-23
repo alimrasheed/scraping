@@ -25,6 +25,10 @@ ROBOTSTXT_OBEY = False
 
 PROXY_POOL_ENABLED = False
 
+FEED_EXPORTERS = {
+    'xlsx': 'scrapy_xlsx.XlsxItemExporter',
+}
+
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 
