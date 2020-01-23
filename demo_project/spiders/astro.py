@@ -20,7 +20,9 @@ class AstroSpider(scrapy.Spider):
         'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1371&groupID=1431&artID=3572',
         'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1371&groupID=1431&artID=3592',
         'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1371&groupID=1432&artID=3596',
-        'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1371&groupID=1435&artID=3638'
+        'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1371&groupID=1435&artID=3638',
+        'https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1336&groupID=1346&artID=1213',
+        
         ]
 
         for url in urls:
