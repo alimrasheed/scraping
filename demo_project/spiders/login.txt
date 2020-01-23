@@ -1,0 +1,16 @@
+from scrapy import Spider
+from ..items import QuoteItem
+from scrapy.http import FormRequest
+from scrapy.utils.response import open_in_browser
+
+class ByrSpider(Spider):
+    name = 'byr'
+    start_urls = ['http://quotes.toscrape.com/login']
+
+    def parse(self, response):
+        token = response.xpath("//input[@name='csrf_token']").extract_first()
+        return FormRequest.from_response(
+            response=response,
+            formdata={'csrf_token':token,'username': 'username', 'password':'password'},
+            formxpath='//form[@action="/login"]',
+            callback=self.after_login)

@@ -1,0 +1,6 @@
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 22 Jan 2020 23:31:53 GMT
+Content-Type: text/html; charset=utf-8
+Set-Cookie: session=eyJjc3JmX3Rva2VuIjoiQlZiclpScGlIRmd2eE9ZRHNsU2RKTFhvSUdVV2hxTndrbnlmYXpDUUVqUE1tVHVjS2VBdCJ9.EQps6Q.uP8M_NVZv3Ex0535GPDu67OZnBw; HttpOnly; Path=/
+X-Upstream: spidyquotes-master_web
+Content-Encoding: gzip

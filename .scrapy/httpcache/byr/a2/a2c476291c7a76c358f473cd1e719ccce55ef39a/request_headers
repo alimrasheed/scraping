@@ -1,0 +1,7 @@
+Content-Type: application/x-www-form-urlencoded
+Referer: http://quotes.toscrape.com/login
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en
+User-Agent: Mozilla/5.0 (Windows NT 5.1; rv:7.0.1) Gecko/20100101 Firefox/7.0.1
+Accept-Encoding: gzip,deflate
+Cookie: session=eyJjc3JmX3Rva2VuIjoiYnNtS1VZV3RaVlRORVFoRGVxUlNJemFBT254SmtHeWlQSHVCY01qbG9DRlhwTHJkdndmZyJ9.EQps5Q.IkiOnEyl504LqPVoMopmQt-JWJs

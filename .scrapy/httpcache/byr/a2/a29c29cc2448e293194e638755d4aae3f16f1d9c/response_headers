@@ -1,0 +1,9 @@
+Server: nginx/1.10.0
+Date: Wed, 22 Jan 2020 23:24:50 GMT
+Content-Type: text/html;charset=GBK
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.6.30
+Set-Cookie: nforum[UTMPUSERID]=guest; path=/; domain=bbs.byr.cn
+Set-Cookie: nforum[UTMPKEY]=76363179; path=/; domain=bbs.byr.cn
+Set-Cookie: nforum[UTMPNUM]=12514; path=/; domain=bbs.byr.cn
+Content-Encoding: gzip

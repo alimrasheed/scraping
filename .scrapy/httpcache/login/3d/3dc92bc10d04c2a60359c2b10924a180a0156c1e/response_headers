@@ -1,0 +1,5 @@
+Server: nginx/1.14.0 (Ubuntu)
+Date: Wed, 22 Jan 2020 23:15:15 GMT
+Content-Type: text/html; charset=utf-8
+X-Upstream: spidyquotes-master_web
+Content-Encoding: gzip
