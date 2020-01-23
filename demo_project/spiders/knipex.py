@@ -6,7 +6,7 @@ from scrapy.http import FormRequest
 
 
 class AstroSpider(scrapy.Spider):
-    name = 'knipex'
+    #name = 'knipex'
 
     def start_requests(self):
         urls= ['https://www.knipex.com/index.php?id=1216&L=1&page=art_detail&isMobile=&parentID=1299&groupID=1320&artID=20540',

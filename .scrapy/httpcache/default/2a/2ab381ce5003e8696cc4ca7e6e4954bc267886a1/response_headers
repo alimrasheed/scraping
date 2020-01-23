@@ -1,0 +1,15 @@
+Server: nginx
+Date: Thu, 23 Jan 2020 21:32:22 GMT
+Content-Type: text/html; charset=UTF-8
+Pragma: no-cache
+Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+Expires: Wed, 23 Jan 2019 21:32:21 GMT
+Content-Security-Policy: upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: PHPSESSID=v3v3rli5h1ufvie58n8u08nrl3; expires=Thu, 23-Jan-2020 22:32:21 GMT; Max-Age=3600; path=/; domain=www.astrotools.com; secure; HttpOnly
+Set-Cookie: mage-messages=%5B%5D; expires=Fri, 22-Jan-2021 21:32:22 GMT; Max-Age=31536000; path=/
+X-Ua-Compatible: IE=edge
+Host-Header: 624d5be7be38418a3e2a818cc8b7029b
+X-Proxy-Cache: MISS
