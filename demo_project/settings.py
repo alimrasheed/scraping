@@ -76,8 +76,12 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'demo_project.pipelines.DemoProjectPipeline': 300,
+   'scrapy.pipelines.images.ImagesPipeline': 1,
 }
+
+IMAGES_STORE: '/home/alim/virtual_workspace/demo_project'
+
+DOWNLOAD_TIMEOUT = 1200
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
